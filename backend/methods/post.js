@@ -6,6 +6,7 @@ const keys = require("../constants/keys");
 const postRequest = async (req, res) => {
   if (req.url === "/api/movies") {
     const body = await bodyParser(req);
+    console.log("body:", body);
 
     if (
       keys.some((key) => !body[key]) ||

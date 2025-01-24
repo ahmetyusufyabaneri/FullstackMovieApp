@@ -8,7 +8,7 @@
     "description": "In a spy mission, Ethan Hunt embarks on a dangerous adventure.",
     "director": "Christopher McQuarrie",
     "cast": ["Tom Cruise", "Hayley Atwell", "Ving Rhames"],
-    "duration": "2h 28m",
+    "duration": "148",
     "language": "English"
   },
   {
@@ -20,7 +20,7 @@
     "description": "A German series about time travel and mysterious events.",
     "director": "Baran bo Odar",
     "cast": ["Louis Hofmann", "Karoline Eichhorn", "Lisa Vicari"],
-    "duration": "1h",
+    "duration": "60",
     "language": "German"
   },
   {
@@ -30,7 +30,7 @@
     "rating": "6",
     "year": "2020",
     "director": "Christopher Nolan",
-    "duration": "2h 11m",
+    "duration": "131",
     "language": "English",
     "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
     "genre": ["Science Fiction", "Action"]
@@ -44,7 +44,7 @@
     "description": "The story of a banker wrongfully sentenced to life in prison, filled with hope and friendship.",
     "director": "Frank Darabont",
     "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
-    "duration": "2h 22m",
+    "duration": "142",
     "language": "English"
   },
   {
@@ -56,7 +56,7 @@
     "description": "A group of thieves enter people's dreams to steal ideas, now they are assigned a mission to do the opposite.",
     "director": "Christopher Nolan",
     "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
-    "duration": "2h 28m",
+    "duration": "148",
     "language": "English"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Superheroes unite to fight against the artificial intelligence threat, Ultron.",
     "director": "Joss Whedon",
     "cast": ["Robert Downey Jr.", "Scarlett Johansson", "Mark Ruffalo"],
-    "duration": "2h 21m",
+    "duration": "141",
     "language": "English"
   },
   {
@@ -80,7 +80,7 @@
     "description": "After Thanos destroys half of the universe, the heroes prepare for one last battle.",
     "director": "Anthony Russo, Joe Russo",
     "cast": ["Chris Evans", "Chris Hemsworth", "Scarlett Johansson"],
-    "duration": "3h 2m",
+    "duration": "182",
     "language": "English"
   },
   {
@@ -92,7 +92,7 @@
     "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior from taking control of the universe.",
     "director": "James Gunn",
     "cast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
-    "duration": "2h 1m",
+    "duration": "121",
     "language": "English"
   },
   {
@@ -104,7 +104,7 @@
     "description": "Peter Parker teams up with Doctor Strange to deal with multiversal chaos caused by his identity being revealed.",
     "director": "Jon Watts",
     "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
-    "duration": "2h 28m",
+    "duration": "150",
     "language": "English"
   },
   {
@@ -116,7 +116,43 @@
     "description": "Peter Parker embarks on an interdimensional journey, teaming up with alternate versions of Spider-Man to stop a multiversal threat.",
     "director": "Jon Watts",
     "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Oscar Isaac"],
-    "duration": "2h 45m",
+    "duration": "165",
     "language": "English"
+  },
+  {
+    "title": "The Matrix",
+    "description": "A hacker discovers that reality as he knows it is a simulated world controlled by machines.",
+    "rating": "8",
+    "year": "1999",
+    "director": "Lana Wachowski",
+    "duration": "135",
+    "language": "English",
+    "cast": ["Keanu Reeves", " Laurence Fishburne", " Carrie-Anne Moss"],
+    "genre": ["Science Fiction", " Action", " Thriller"],
+    "id": "1449307f-0edc-428b-ba28-44e4c73ea125"
+  },
+  {
+    "title": "Interstellar",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival",
+    "rating": "8.6",
+    "year": "2014",
+    "director": "Christopher Nolan",
+    "duration": "170",
+    "language": "English",
+    "cast": ["Matthew McConaughey", " Anne Hathaway", " Jessica Chastain"],
+    "genre": ["Science Fiction", " Drama", " Adventure"],
+    "id": "f197f6e2-9c11-4918-9e15-73f6f488c3bb"
+  },
+  {
+    "title": "The Dark Knight",
+    "description": "Batman faces his greatest threat yet: the Joker, a criminal mastermind who seeks to plunge Gotham City into anarchy.",
+    "rating": "9",
+    "year": "2008",
+    "director": "Christopher Nolan",
+    "duration": "152",
+    "language": "English",
+    "cast": ["Christian Bale", " Heath Ledger", " Aaron Eckhart"],
+    "genre": ["Action", " Crime"],
+    "id": "36bb07e4-3404-4b58-8327-a2c13eb0e9d0"
   }
 ]

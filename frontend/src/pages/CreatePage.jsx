@@ -1,8 +1,12 @@
+import { toast } from "react-toastify";
 import InputField from "../components/InputField";
 import { inputs } from "../constants/inputs";
 import { api } from "../utils/api";
+import { useNavigate } from "react-router-dom";
 
 const CreatePage = () => {
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -12,12 +16,19 @@ const CreatePage = () => {
 
     movieData.genre = movieData.genre.split(",");
     movieData.cast = movieData.cast.split(",");
-    console.log(movieData);
 
     api
       .post("/api/movies", movieData)
-      .then(() => console.log("Success!"))
-      .catch((err) => console.log(err));
+      .then((res) => {
+        toast.success("Movie created!");
+
+        navigate(`/movie/${res.data.id}`);
+      })
+      .catch((err) => {
+        console.log(err);
+
+        toast.error("Sorry operation failed!");
+      });
   };
   return (
     <div className="bg-yellow-500 min-h-screen grid place-items-center px-4 py-8">

@@ -1,4 +1,4 @@
-const InputField = ({ name, label, type = "text", min, max }) => {
+const InputField = ({ name, label, type = "text", min, max, step }) => {
   return (
     <div className="relative w-full">
       <input
@@ -9,6 +9,7 @@ const InputField = ({ name, label, type = "text", min, max }) => {
         required
         min={min}
         max={max}
+        step={step}
       />
 
       <label

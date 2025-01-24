@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
       return deleteRequest(req, res);
 
     case "OPTIONS":
-      return optionsRequest(req, res);
+      return optionsRequest(res);
 
     default:
       return defaultRequest(res);
