@@ -8,7 +8,7 @@ const optionsRequest = require("./methods/options");
 const server = http.createServer((req, res) => {
   res.setHeader("content-type", "application/json");
 
-  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
 
   console.log(req.method);
 

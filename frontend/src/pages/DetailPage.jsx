@@ -6,6 +6,7 @@ import Error from "../components/Error";
 import { FaTrash } from "react-icons/fa";
 import RatingField from "../components/RatingField";
 import Field from "../components/Field";
+import ListFields from "../components/ListFields";
 
 const DetailPage = () => {
   const { id } = useParams();
@@ -34,16 +35,21 @@ const DetailPage = () => {
           />
         </div>
         <div className="flex flex-col gap-8">
-          <h1 className="text-3xl font-semibold">{data.title}</h1>
+          <div className="flex flex-col gap-4">
+            <h1 className="text-3xl font-semibold">{data.title}</h1>
+            <p>{data.description}</p>
+          </div>
           <RatingField
             label={"Audience Score:"}
             value={Number(data.rating).toFixed(1)}
             data={data}
           />
+          <ListFields label={"Genre"} array={data.genre} />@
           <Field label={"Language:"} value={data.language} />
           <Field label={"Duration:"} value={data.duration} />
-          <Field label={"Director:"} value={data.director} />
           <Field label={"Year:"} value={data.year} />
+          <Field label={"Director:"} value={data.director} />
+          <ListFields label={"Cast"} array={data.cast} />
         </div>
       </div>
     </div>
