@@ -3,10 +3,10 @@ import { api } from "../utils/api";
 import { useParams } from "react-router-dom";
 import Loader from "../components/Loader";
 import Error from "../components/Error";
-import { FaTrash } from "react-icons/fa";
 import RatingField from "../components/RatingField";
 import Field from "../components/Field";
-import ListFields from "../components/ListFields";
+import ListField from "../components/ListField";
+import DeleteButton from "../components/DeleteButton";
 
 const DetailPage = () => {
   const { id } = useParams();
@@ -23,9 +23,7 @@ const DetailPage = () => {
   return (
     <div className="p-10">
       <div className="flex justify-end">
-        <button className="bg-red-500 text-white p-2 rounded-sm duration-100 hover:bg-red-400">
-          <FaTrash />
-        </button>
+        <DeleteButton id={id} />
       </div>
       <div className="flex flex-col items-center gap-8 md:flex-row">
         <div>
@@ -44,12 +42,12 @@ const DetailPage = () => {
             value={Number(data.rating).toFixed(1)}
             data={data}
           />
-          <ListFields label={"Genre"} array={data.genre} />@
+          <ListField label={"Genre"} array={data.genre} />
           <Field label={"Language:"} value={data.language} />
           <Field label={"Duration:"} value={data.duration} />
           <Field label={"Year:"} value={data.year} />
           <Field label={"Director:"} value={data.director} />
-          <ListFields label={"Cast"} array={data.cast} />
+          <ListField label={"Cast"} array={data.cast} />
         </div>
       </div>
     </div>

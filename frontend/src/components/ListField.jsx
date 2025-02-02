@@ -1,4 +1,4 @@
-const ListFields = ({ label, array }) => {
+const ListField = ({ label, array }) => {
   return (
     <p className="flex items-center gap-1">
       <span className="font-bold">{label}:</span>
@@ -11,4 +11,4 @@ const ListFields = ({ label, array }) => {
   );
 };
 
-export default ListFields;
+export default ListField;
