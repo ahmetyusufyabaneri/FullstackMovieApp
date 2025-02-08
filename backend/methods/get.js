@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const getRequest = (req, res) => {
-  const path = req.url.substring(0, req.url.lastIndexOf("/"));
+  const path = req.url.slice(0, 11);
 
   const id = req.url.split("/")[3];
 
