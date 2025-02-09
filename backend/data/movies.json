@@ -1,1 +1,110 @@
-[{"id":"14cda685-4fea-4ea9-bec1-5c1cfe23b205","title":"The Shawshank Redemption","year":"1994","genre":["Drama","Crime"],"rating":"9.3","description":"The story of a banker wrongfully sentenced to life in prison, filled with hope and friendship.","director":"Frank Darabont","cast":["Tim Robbins","Morgan Freeman","Bob Gunton"],"duration":"142","language":"English"},{"id":"5a0a7ac2-a166-4e82-bcc2-a3d52b749eab","title":"Inception","year":"2010","genre":["Science Fiction","Action","Adventure"],"rating":"8.8","description":"A group of thieves enter people's dreams to steal ideas, now they are assigned a mission to do the opposite.","director":"Christopher Nolan","cast":["Leonardo DiCaprio","Joseph Gordon-Levitt","Elliot Page"],"duration":"148","language":"English"},{"id":"1bc38e79-4e59-4b28-a1f6-d9692920c551","title":"Avengers: Age of Ultron","year":"2015","genre":["Action","Science Fiction","Adventure"],"rating":"7.3","description":"Superheroes unite to fight against the artificial intelligence threat, Ultron.","director":"Joss Whedon","cast":["Robert Downey Jr.","Scarlett Johansson","Mark Ruffalo"],"duration":"141","language":"English"},{"id":"6d9b790f-9009-47d9-be34-3309cd537847","title":"Avengers: Endgame","year":"2019","genre":["Action","Adventure","Drama"],"rating":"8.4","description":"After Thanos destroys half of the universe, the heroes prepare for one last battle.","director":"Anthony Russo, Joe Russo","cast":["Chris Evans","Chris Hemsworth","Scarlett Johansson"],"duration":"182","language":"English"},{"id":"f6041f59-4c75-42c8-a891-af32f35f5578","title":"Guardians of the Galaxy","year":"2014","genre":["Action","Adventure","Comedy"],"rating":"8.0","description":"A group of intergalactic criminals must pull together to stop a fanatical warrior from taking control of the universe.","director":"James Gunn","cast":["Chris Pratt","Zoe Saldana","Dave Bautista"],"duration":"121","language":"English"},{"id":"8a49c192-e30e-4fff-85bb-c4554dd22b08","title":"Spider-Man: No Way Home","year":"2021","genre":["Action","Adventure","Mystery"],"rating":"8.3","description":"Peter Parker teams up with Doctor Strange to deal with multiversal chaos caused by his identity being revealed.","director":"Jon Watts","cast":["Tom Holland","Zendaya","Benedict Cumberbatch"],"duration":"150","language":"English"},{"id":"2d6c663a-e4b7-4fcf-9411-35d7a4df9120","title":"Spider-Man: Across the Multiverse","year":"2023","genre":["Action","Adventure","Sci-Fi"],"rating":"8.7","description":"Peter Parker embarks on an interdimensional journey, teaming up with alternate versions of Spider-Man to stop a multiversal threat.","director":"Jon Watts","cast":["Tom Holland","Zendaya","Benedict Cumberbatch","Oscar Isaac"],"duration":"165","language":"English"},{"title":"The Matrix","description":"A hacker discovers that reality as he knows it is a simulated world controlled by machines.","rating":"8","year":"1999","director":"Lana Wachowski","duration":"135","language":"English","cast":["Keanu Reeves"," Laurence Fishburne"," Carrie-Anne Moss"],"genre":["Science Fiction"," Action"," Thriller"],"id":"1449307f-0edc-428b-ba28-44e4c73ea125"},{"title":"Interstellar","description":"A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival","rating":"8.6","year":"2014","director":"Christopher Nolan","duration":"170","language":"English","cast":["Matthew McConaughey"," Anne Hathaway"," Jessica Chastain"],"genre":["Science Fiction"," Drama"," Adventure"],"id":"f197f6e2-9c11-4918-9e15-73f6f488c3bb"}]
+[
+  {
+    "id": "14cda685-4fea-4ea9-bec1-5c1cfe23b205",
+    "title": "The Shawshank Redemption",
+    "year": "1994",
+    "genre": ["Drama", "Crime"],
+    "rating": "9.3",
+    "description": "The story of a banker wrongfully sentenced to life in prison, filled with hope and friendship.",
+    "director": "Frank Darabont",
+    "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+    "duration": "142",
+    "language": "English"
+  },
+  {
+    "id": "5a0a7ac2-a166-4e82-bcc2-a3d52b749eab",
+    "title": "Inception",
+    "year": "2010",
+    "genre": ["Science Fiction", "Action", "Adventure"],
+    "rating": "8.8",
+    "description": "A group of thieves enter people's dreams to steal ideas, now they are assigned a mission to do the opposite.",
+    "director": "Christopher Nolan",
+    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    "duration": "148",
+    "language": "English"
+  },
+  {
+    "id": "1bc38e79-4e59-4b28-a1f6-d9692920c551",
+    "title": "Avengers: Age of Ultron",
+    "year": "2015",
+    "genre": ["Action", "Science Fiction", "Adventure"],
+    "rating": "7.3",
+    "description": "Superheroes unite to fight against the artificial intelligence threat, Ultron.",
+    "director": "Joss Whedon",
+    "cast": ["Robert Downey Jr.", "Scarlett Johansson", "Mark Ruffalo"],
+    "duration": "141",
+    "language": "English"
+  },
+  {
+    "id": "6d9b790f-9009-47d9-be34-3309cd537847",
+    "title": "Avengers: Endgame",
+    "year": "2019",
+    "genre": ["Action", "Adventure", "Drama"],
+    "rating": "8.4",
+    "description": "After Thanos destroys half of the universe, the heroes prepare for one last battle.",
+    "director": "Anthony Russo, Joe Russo",
+    "cast": ["Chris Evans", "Chris Hemsworth", "Scarlett Johansson"],
+    "duration": "182",
+    "language": "English"
+  },
+  {
+    "id": "f6041f59-4c75-42c8-a891-af32f35f5578",
+    "title": "Guardians of the Galaxy",
+    "year": "2014",
+    "genre": ["Action", "Adventure", "Comedy"],
+    "rating": "8.0",
+    "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior from taking control of the universe.",
+    "director": "James Gunn",
+    "cast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
+    "duration": "121",
+    "language": "English"
+  },
+  {
+    "id": "8a49c192-e30e-4fff-85bb-c4554dd22b08",
+    "title": "Spider-Man: No Way Home",
+    "year": "2021",
+    "genre": ["Action", "Adventure", "Mystery"],
+    "rating": "8.3",
+    "description": "Peter Parker teams up with Doctor Strange to deal with multiversal chaos caused by his identity being revealed.",
+    "director": "Jon Watts",
+    "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
+    "duration": "150",
+    "language": "English"
+  },
+  {
+    "id": "2d6c663a-e4b7-4fcf-9411-35d7a4df9120",
+    "title": "Spider-Man: Across the Multiverse",
+    "year": "2023",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": "8.7",
+    "description": "Peter Parker embarks on an interdimensional journey, teaming up with alternate versions of Spider-Man to stop a multiversal threat.",
+    "director": "Jon Watts",
+    "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Oscar Isaac"],
+    "duration": "165",
+    "language": "English"
+  },
+  {
+    "title": "The Matrix",
+    "description": "A hacker discovers that reality as he knows it is a simulated world controlled by machines.",
+    "rating": "8",
+    "year": "1999",
+    "director": "Lana Wachowski",
+    "duration": "135",
+    "language": "English",
+    "cast": ["Keanu Reeves", " Laurence Fishburne", " Carrie-Anne Moss"],
+    "genre": ["Science Fiction", " Action", " Thriller"],
+    "id": "1449307f-0edc-428b-ba28-44e4c73ea125"
+  },
+  {
+    "title": "Interstellar",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival",
+    "rating": "8.6",
+    "year": "2014",
+    "director": "Christopher Nolan",
+    "duration": "170",
+    "language": "English",
+    "cast": ["Matthew McConaughey", " Anne Hathaway", " Jessica Chastain"],
+    "genre": ["Science Fiction", " Drama", " Adventure"],
+    "id": "f197f6e2-9c11-4918-9e15-73f6f488c3bb"
+  }
+]

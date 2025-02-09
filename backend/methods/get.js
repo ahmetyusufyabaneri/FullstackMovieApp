@@ -5,10 +5,20 @@ const getRequest = (req, res) => {
 
   const id = req.url.split("/")[3];
 
-  if (req.url === "/api/movies") {
-    const movies = fs.readFileSync("./data/movies.json", "utf-8");
+  const param = req.url.split("=").pop().toLowerCase().trim();
 
-    return res.end(movies);
+  console.log(param);
+
+  if (path === "/api/movies") {
+    const movies = JSON.parse(fs.readFileSync("./data/movies.json", "utf-8"));
+
+    if (param && param !== "/api/movies") {
+      const filtered = movies.filter((movie) => movie.title.includes(param));
+
+      return res.end(JSON.stringify(filtered));
+    }
+
+    return res.end(JSON.stringify(movies));
   }
 
   if (path === "/api/movies" && id) {
